@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataMahasiswa_1302213121_PRAKTIKAN.cs" />
+    <Compile Include="KuliahMahasiswa_1302213121_PRAKTIKAN.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -12,6 +12,10 @@ namespace tpmodul7_Destroyer_02
         {
             DataMahasiswa_1302213121_PRAKTIKAN Dede = new DataMahasiswa_1302213121_PRAKTIKAN();
             Dede.ReadJSON();
+
+            Console.WriteLine("=======================================");
+            KuliahMahasiswa_1302213121_PRAKTIKAN Kuliah = new KuliahMahasiswa_1302213121_PRAKTIKAN();
+            Kuliah.ReadJSON();
         }
     }
 }
