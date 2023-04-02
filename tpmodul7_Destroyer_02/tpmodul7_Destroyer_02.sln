@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul7_Destroyer_02", "tpmodul7_Destroyer_02\tpmodul7_Destroyer_02.csproj", "{FC69DAB5-1175-4DD1-B083-75F2C8C3D9CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC69DAB5-1175-4DD1-B083-75F2C8C3D9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC69DAB5-1175-4DD1-B083-75F2C8C3D9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC69DAB5-1175-4DD1-B083-75F2C8C3D9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC69DAB5-1175-4DD1-B083-75F2C8C3D9CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C4343E3-9051-4BF5-BE97-D143DC237181}
+	EndGlobalSection
+EndGlobal
