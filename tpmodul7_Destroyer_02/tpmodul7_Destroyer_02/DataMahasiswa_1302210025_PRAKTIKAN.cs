@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace tpmodul7_Destroyer_02
 {
-    internal class DataMahasiswa_1302213121_PRAKTIKAN
+    internal class DataMahasiswa_1302210025_PRAKTIKAN
     {
         public Nama nama { get; set; }
         public int nim { get; set; }
         public String fakultas { get; set; }
 
-        public DataMahasiswa_1302213121_PRAKTIKAN() { }
-        public DataMahasiswa_1302213121_PRAKTIKAN(Nama nama, int nim, String fakultas)
+        public DataMahasiswa_1302210025_PRAKTIKAN() { }
+        public DataMahasiswa_1302210025_PRAKTIKAN(Nama nama, int nim, String fakultas)
         {
             this.nama = nama;
             this.nim = nim;
@@ -23,8 +23,8 @@ namespace tpmodul7_Destroyer_02
         }
         public void ReadJSON()
         {
-            String jsonString = File.ReadAllText("D:\\Kuliah\\SEMESTER 4\\KPL\\TP_MOD7_Destroyer\\TP_MOD7_Destroyer\\tpmodul7_Destroyer_02\\tpmodul7_Destroyer_02\\tp7_1_1302213121.json");
-            DataMahasiswa_1302213121_PRAKTIKAN mahasiswa = JsonSerializer.Deserialize<DataMahasiswa_1302213121_PRAKTIKAN>(jsonString);
+            String jsonString = File.ReadAllText("../../tp7_1_1302210025.json");
+            DataMahasiswa_1302210025_PRAKTIKAN mahasiswa = JsonSerializer.Deserialize<DataMahasiswa_1302210025_PRAKTIKAN>(jsonString);
             Console.WriteLine("Nama " + mahasiswa.nama.depan + " " + mahasiswa.nama.belakang + " dengan nim " + mahasiswa.nim +" dari fakultas " + mahasiswa.fakultas);
         }
         public class Nama

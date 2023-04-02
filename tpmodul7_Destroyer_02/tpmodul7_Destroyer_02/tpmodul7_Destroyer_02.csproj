@@ -71,14 +71,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataMahasiswa_1302213121_PRAKTIKAN.cs" />
-    <Compile Include="KuliahMahasiswa_1302213121_PRAKTIKAN.cs" />
+    <Compile Include="DataMahasiswa_1302210025_PRAKTIKAN.cs" />
+    <Compile Include="KuliahMahasiswa_130221025_PRAKTIKAN.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="tp7_2_1302210025.json" />
+    <None Include="tp7_1_1302210025.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
