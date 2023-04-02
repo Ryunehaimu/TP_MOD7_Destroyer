@@ -10,11 +10,11 @@ namespace tpmodul7_Destroyer_02
     {
         static void Main(string[] args)
         {
-            DataMahasiswa_1302213121_PRAKTIKAN Dede = new DataMahasiswa_1302213121_PRAKTIKAN();
-            Dede.ReadJSON();
+            DataMahasiswa_1302210093_PRAKTIKAN Ghaza = new DataMahasiswa_1302210093_PRAKTIKAN();
+            Ghaza.ReadJSON();
 
             Console.WriteLine("=======================================");
-            KuliahMahasiswa_1302213121_PRAKTIKAN Kuliah = new KuliahMahasiswa_1302213121_PRAKTIKAN();
+            KuliahMahasiswa_1302210093_PRAKTIKAN Kuliah = new KuliahMahasiswa_1302210093_PRAKTIKAN();
             Kuliah.ReadJSON();
         }
     }

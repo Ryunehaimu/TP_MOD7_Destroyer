@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace tpmodul7_Destroyer_02
 {
-    internal class KuliahMahasiswa_1302213121_PRAKTIKAN
+    internal class KuliahMahasiswa_1302210093_PRAKTIKAN
     {
         public class MataKuliah
         {
@@ -33,7 +33,7 @@ namespace tpmodul7_Destroyer_02
 
         public void ReadJSON()
         {
-            String jsonString = File.ReadAllText("D:\\Kuliah\\SEMESTER 4\\KPL\\TP_MOD7_Destroyer\\TP_MOD7_Destroyer\\tpmodul7_Destroyer_02\\tpmodul7_Destroyer_02\\tp7_2_1302213121.json");
+            String jsonString = File.ReadAllText("../../tp7_2_1302210093.json");
             ListMatkulMahasiswa matkul = JsonSerializer.Deserialize<ListMatkulMahasiswa>(jsonString);
 
             for (int i = 0; i < matkul.courses.Count; i++)
